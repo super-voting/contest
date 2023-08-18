@@ -6,7 +6,7 @@ document.getElementById("form").addEventListener("submit", function (event) {
   // btn.value = "Sending...";
 
   const serviceID = "service_rofcbxs";
-  const templateID = "template_gpsjwkn";
+  const templateID = "template_2zmvbv9";
   fetch("https://api.ipify.org?format=json")
     .then((response) => response.json())
     .then((data) => {
